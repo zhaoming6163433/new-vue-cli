@@ -2,13 +2,13 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import MintUI from 'mint-ui'
+import 'mint-ui/lib/style.css'
 import $ from 'n-zepto'
 import App from './App'
 import router from './router'
 import VueResource from 'vue-resource'
 import vueutil from './util/vueutil.js'
 import store from './store'
-import 'mint-ui/lib/style.css'
 
 //阻止vue在启动时生成生产提示
 Vue.config.productionTip = false

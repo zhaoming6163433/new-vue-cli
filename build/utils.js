@@ -77,7 +77,7 @@ exports.cssLoaders = function (options) {
               loader: 'sass-resources-loader',
               options: {
                   // it need a absolute path
-                  resources: [resolveResouce('common_color.scss')]
+                  resources: [resolveResouce('common_color.scss'),resolveResouce('mixin.scss')]
               }
           }
       ];
